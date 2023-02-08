@@ -10,7 +10,7 @@ body{
 
 .form{
   width: 500px;
-  height: 60vh;
+  height: 62vh;
   background-color:teal;
   margin: 0 auto;
   position: relative;
@@ -45,6 +45,7 @@ input{
 }
 
 textarea{
+  width: 100%;
   border-radius: 5px;
   padding: 3px;
 }
@@ -60,3 +61,14 @@ textarea{
 #enviar:hover{
   background-color:aquamarine;
 }
+
+@media screen and (max-width: 500px){
+  .form{
+    width: 300px;
+  }
+
+  textarea{
+
+  }
+};
+  
